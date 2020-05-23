@@ -54,6 +54,7 @@ const NavbarContainer = styled.header`
       width: 90%;
       flex-direction: row;
       align-items: center;
+      margin-bottom: 1.5%;
     }
   }
   @media (max-width: 300px) {
