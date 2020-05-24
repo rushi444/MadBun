@@ -49,6 +49,7 @@ const NavbarContainer = styled.header`
   }
   @media (max-width: 700px) {
     flex-direction: column;
+    margin: 1%;
     nav {
       margin-top: 1%;
       width: 90%;

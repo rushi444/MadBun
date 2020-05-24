@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -31,7 +31,8 @@ const Image = () => {
 }
 
 const HomeImage = styled(Img)`
-
+  min-width: 100vh;
+  object-fit: contain;
 `
 
 export default Image
