@@ -19,8 +19,8 @@ export const Navbar = () => {
 const NavbarContainer = styled.header`
   display: flex;
   margin: 0 auto;
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
+  margin: 0.5% 0;
+  padding: 0 2%;
   width: 100%;
   justify-content: space-between;
   justify-items: center;
