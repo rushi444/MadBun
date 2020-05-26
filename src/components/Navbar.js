@@ -21,7 +21,7 @@ const NavbarContainer = styled.header`
   margin: 0 auto;
   margin-top: 0.5%;
   margin-bottom: 0.5%;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   justify-items: center;
   align-items: center;
@@ -48,12 +48,14 @@ const NavbarContainer = styled.header`
   }
   @media (max-width: 700px) {
     flex-direction: column;
-    margin: 1%;
+    margin: 1% 0;
+    margin-right: 0; 
     nav {
       margin-top: 1%;
       width: 90%;
       flex-direction: row;
       align-items: center;
+      justify-content: space-around;
       margin-bottom: 1.5%;
     }
   }
