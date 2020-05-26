@@ -23,7 +23,7 @@ export const SidesAndDrinks = () => {
           <StyledPrice>$1.95</StyledPrice>
         </StyledItem>
         <StyledItem>
-          <h4>Bottle Sods</h4>
+          <h4>Bottle Soda</h4>
           <StyledPrice>$2.50</StyledPrice>
         </StyledItem>
       </ul>

@@ -50,23 +50,29 @@ const MenuContainer = styled.div`
   padding: 0 2%;
   display: flex;
   flex-direction: column;
+  margin-top: 2%;
   h1 {
     text-align: center;
     padding-left: 5%;
     text-align: left;
     font-size: 2rem;
   }
+  @media(max-width: 700px){
+    height: 80vh;
+  }
 `
 
 const StyledTabList = styled(TabList)`
   display: flex;
   justify-content: space-around;
+  padding: 1% 3%;
 
   @media (max-width: 700px) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
+    padding: initial;
   }
 `
 

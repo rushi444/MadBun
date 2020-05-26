@@ -13,16 +13,6 @@ import 'sanitize.css'
 import { Navbar } from "./Navbar"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <Navbar />

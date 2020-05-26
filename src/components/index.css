@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+  src: url(./font/Franklin\ Gothic\ Heavy\ Regular.ttf)
+}
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Franklin Gothic Heavy", sans-serif;
   scroll-behavior: smooth;
   font-weight: 600;
 }

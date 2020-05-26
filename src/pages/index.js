@@ -8,6 +8,7 @@ import "../components/index.css"
 import { Menu } from "../components/Menu"
 import { ThemeProvider, CSSReset } from "@chakra-ui/core"
 import { customTheme } from "../components/theme"
+import { About } from "../components/About"
 
 const IndexPage = () => (
   <ThemeProvider theme={customTheme}>
@@ -17,7 +18,7 @@ const IndexPage = () => (
       <div style={{maxWidth: '100vw', overflow: 'hidden'}}>
         <Image />
       </div>
-      
+      <About />
       <Menu />
     </Layout>
   </ThemeProvider>
