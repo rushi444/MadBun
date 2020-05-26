@@ -33,6 +33,9 @@ const Image = () => {
 const HomeImage = styled(Img)`
   min-width: 100vh;
   object-fit: contain;
+  @media(max-width: 700px){
+    height: 86vh
+  }
 `
 
 export default Image

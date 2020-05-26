@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 import aboutImage from "../images/insert-picture-here.jpg"
 export const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
       <h1>About Us</h1>
       <AboutUsDetails>
         <img src={aboutImage} alt="insert image" />

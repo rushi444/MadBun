@@ -8,9 +8,8 @@ export const Navbar = () => {
     <NavbarContainer>
       <img src={logo} alt="logo" />
       <nav>
-        <Link to="/menu">MENU</Link>
-        <Link to="/location">LOCATION</Link>
-        <Link to="/about">ABOUT</Link>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
         <ThemeButton>ORDER</ThemeButton>
       </nav>
     </NavbarContainer>
@@ -34,7 +33,7 @@ const NavbarContainer = styled.header`
     display: none;
   }
   nav {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     a {

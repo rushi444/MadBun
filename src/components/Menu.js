@@ -10,7 +10,7 @@ import { SidesAndDrinks } from "./menuCategories/SidesAndDrinks"
 
 export const Menu = () => {
   return (
-    <MenuContainer>
+    <MenuContainer id='menu'>
       <h1>MENU</h1>
       <Tabs variant="soft-rounded" variantColor="green">
         <StyledTabList>
@@ -51,6 +51,7 @@ const MenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 2%;
+  height: 80vh;
   h1 {
     text-align: center;
     padding-left: 5%;
@@ -58,7 +59,7 @@ const MenuContainer = styled.div`
     font-size: 2rem;
   }
   @media(max-width: 700px){
-    height: 80vh;
+    min-height: 90vh;
   }
 `
 
