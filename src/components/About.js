@@ -1,13 +1,12 @@
 import React from "react"
 import styled from "@emotion/styled"
-import aboutImage from "../images/insert-picture-here.jpg"
+
 export const About = () => {
   return (
     <AboutContainer id="about">
-      <h1>About Us</h1>
+      <h1>ABOUT US</h1>
       <AboutUsDetails>
-        {/* <img src={aboutImage} alt="insert image" /> */}
-        <p style={{fontSize: '1rem'}}>
+        <p>
           Madbun specializes in sliders, burgers, loaded fries, and chicken
           tenders with a taste of Asian street food culture in every bite. We
           take Asian flavors and mix it with a California flare to give our
@@ -28,23 +27,22 @@ const AboutContainer = styled.div`
   padding: 1% 2%;
   display: flex;
   flex-direction: column;
-  margin-top: 2%;
   background-color: #9fcb10;
   margin-top: 0;
   height: auto;
   min-height: 50vh;
+  padding: 1%;
   h1 {
     text-align: center;
     padding-left: 5%;
     text-align: left;
     font-size: 2rem;
   }
-  p {
-
-  }
   @media (max-width: 700px) {
-    padding: 2% 1%
-    p{
+    padding: 2% 1% 
+    margin: auto
+    p {
+      
       padding: 3%;
     }
   }
@@ -54,12 +52,15 @@ const AboutUsDetails = styled.div`
   display: flex;
   justify-content: space-around;
   p {
+    font-size: 1rem;
     width: 60%;
   }
   @media (max-width: 700px) {
     display: block;
     p {
+      margin: auto;
       width: 90%;
+      padding-bottom: 3%;
     }
   }
 `
