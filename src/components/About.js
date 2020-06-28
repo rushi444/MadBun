@@ -6,8 +6,8 @@ export const About = () => {
     <AboutContainer id="about">
       <h1>About Us</h1>
       <AboutUsDetails>
-        <img src={aboutImage} alt="insert image" />
-        <p>
+        {/* <img src={aboutImage} alt="insert image" /> */}
+        <p style={{fontSize: '1rem'}}>
           Madbun specializes in sliders, burgers, loaded fries, and chicken
           tenders with a taste of Asian street food culture in every bite. We
           take Asian flavors and mix it with a California flare to give our
@@ -31,15 +31,22 @@ const AboutContainer = styled.div`
   margin-top: 2%;
   background-color: #9fcb10;
   margin-top: 0;
-  height: 50vh;
+  height: auto;
+  min-height: 50vh;
   h1 {
     text-align: center;
     padding-left: 5%;
     text-align: left;
     font-size: 2rem;
   }
+  p {
+
+  }
   @media (max-width: 700px) {
-    height: 80vh;
+    padding: 2% 1%
+    p{
+      padding: 3%;
+    }
   }
 `
 
