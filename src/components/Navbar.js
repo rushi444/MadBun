@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "@emotion/styled"
 import logo from "../images/logo.jpg"

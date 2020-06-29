@@ -31,7 +31,7 @@ const Image = () => {
 }
 
 const HomeImage = styled(Img)`
-  min-width: 100vw;
+  // min-width: 100vw;
   min-height: 86vh;
   object-fit: contain;
   @media(max-width: 700px){

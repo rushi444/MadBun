@@ -15,7 +15,7 @@ const IndexPage = () => (
     <CSSReset />
     <Layout>
       <SEO title="MAD BUN" />
-      <div style={{minWidth: '100vw', overflow: 'hidden'}}>
+      <div style={{ overflow: 'hidden'}}>
         <Image />
       </div>
       <About />
