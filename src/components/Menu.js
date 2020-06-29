@@ -77,4 +77,7 @@ const StyledTabList = styled(TabList)`
   }
 `
 
-const StyledTab = styled(Tab)``
+const StyledTab = styled(Tab)`
+font-size: .9rem;
+white-space: nowrap;
+`

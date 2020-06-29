@@ -10,7 +10,15 @@ export const Navbar = () => {
       <nav>
         <a href="#about">ABOUT</a>
         <a href="#menu">MENU</a>
-        <ThemeButton>ORDER</ThemeButton>
+        <ThemeButton
+          onClick={() =>
+            window.location.assign(
+              "https://www.doordash.com/store/madbun-chino-706636/en-US/?utm_campaign=gpa"
+            )
+          }
+        >
+          ORDER
+        </ThemeButton>
       </nav>
     </NavbarContainer>
   )
@@ -49,7 +57,7 @@ const NavbarContainer = styled.header`
   @media (max-width: 700px) {
     flex-direction: column;
     margin: 1% 0;
-    margin-right: 0; 
+    margin-right: 0;
     nav {
       margin-top: 1%;
       width: 90%;
