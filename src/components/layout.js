@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <FooterContainer>
           <h4>Call Us:</h4>
-          <AddressLink href='tel:909-517-1188'>(909) 517-1188</AddressLink>
+          <AddressLink href="tel:909-517-1188">(909) 517-1188</AddressLink>
           <p />
           <h4>Address:</h4>
           <AddressLink href="https://goo.gl/maps/najyLJdEFQ8SdN7z5">
