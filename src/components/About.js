@@ -41,10 +41,6 @@ const AboutContainer = styled.div`
   @media (max-width: 700px) {
     padding: 2% 1% 
     margin: auto
-    p {
-      
-      padding: 3%;
-    }
   }
 `
 
@@ -52,15 +48,16 @@ const AboutUsDetails = styled.div`
   display: flex;
   justify-content: space-around;
   p {
-    font-size: 1rem;
-    width: 60%;
+    font-size: 1.5rem;
+    width: 80%;
   }
   @media (max-width: 700px) {
     display: block;
     p {
+      font-size: 1rem;
       margin: auto;
       width: 90%;
-      padding-bottom: 3%;
+      padding: 3%;
     }
   }
 `
