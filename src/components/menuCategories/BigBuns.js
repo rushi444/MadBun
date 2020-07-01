@@ -27,6 +27,9 @@ export const StyledItem = styled.li`
   display: flex;
   justify-content: space-between;
   margin: 1rem 0;
+  h4 {
+    1.5em
+  }
 `
 export const StyledPrice = styled.div`
   padding: 0.2rem 0.3rem;
