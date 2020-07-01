@@ -48,7 +48,7 @@ const AboutUsDetails = styled.div`
   display: flex;
   justify-content: space-around;
   p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 80%;
   }
   @media (max-width: 700px) {
