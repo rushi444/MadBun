@@ -4,7 +4,7 @@ import styled from "@emotion/styled"
 export const BigBuns = () => {
   return (
     <div>
-      <h1 style={{ fontSize: "2.5rem" }}>Big Buns</h1>
+      <h1 style={{ fontSize: "2rem" }}>Big Buns</h1>
       <ul style={{ padding: "2%", listStyleType: "none" }}>
         <StyledItem>
           <h4>Double Bacon Cheeseburger</h4>
