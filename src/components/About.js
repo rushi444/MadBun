@@ -27,6 +27,7 @@ const AboutContainer = styled.div`
   padding: 1% 2%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: #9fcb10;
   margin-top: 0;
   height: auto;
