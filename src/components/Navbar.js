@@ -12,7 +12,7 @@ export const Navbar = () => {
         <ThemeButton
           onClick={() =>
             window.location.assign(
-              "https://www.doordash.com/store/madbun-chino-706636/en-US/?utm_campaign=gpa"
+              "https://postmates.com/merchant/madbun-long-beach"
             )
           }
         >
