@@ -27,7 +27,6 @@ const AboutContainer = styled.div`
   padding: 1% 2%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   background-color: #9fcb10;
   margin-top: 0;
   height: auto;
@@ -38,6 +37,7 @@ const AboutContainer = styled.div`
     padding-left: 5%;
     text-align: left;
     font-size: 2rem;
+    padding-bottom: 2%
   }
   @media (max-width: 700px) {
     padding: 2% 1% 
