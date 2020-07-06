@@ -17,7 +17,7 @@ import styled from "@emotion/styled"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "main_food.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "twoTrays.JPG" }) {
         childImageSharp {
           fluid(maxWidth: 4000) {
             ...GatsbyImageSharpFluid
@@ -32,7 +32,7 @@ const Image = () => {
 
 const HomeImage = styled(Img)`
   // min-width: 100vw;
-  min-height: 86vh;
+  height: 86vh;
   object-fit: contain;
   @media(max-width: 700px){
     height: 86vh
