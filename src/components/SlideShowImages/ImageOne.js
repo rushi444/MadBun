@@ -14,10 +14,10 @@ import styled from "@emotion/styled"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+export const ImageOne = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "twoTrays.JPG" }) {
+      placeholderImage: file(relativePath: { eq: "twoTrays.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 4000) {
             ...GatsbyImageSharpFluid
@@ -30,13 +30,7 @@ const Image = () => {
   return <HomeImage fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-const HomeImage = styled(Img)`
-  // min-width: 100vw;
+export const HomeImage = styled(Img)`
   height: 86vh;
   object-fit: contain;
-  @media(max-width: 700px){
-    height: 86vh
-  }
 `
-
-export default Image

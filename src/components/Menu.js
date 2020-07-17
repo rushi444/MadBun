@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { Tabs, TabList, TabPanels, Tab, TabPanel, theme } from "@chakra-ui/core"
+import { Tabs, TabList, TabPanels, Tab, TabPanel} from "@chakra-ui/core"
 import { BigBuns } from "./menuCategories/BigBuns"
 import { LoadedFries } from "./menuCategories/LoadedFries"
 import { Sliders } from "./menuCategories/Sliders"

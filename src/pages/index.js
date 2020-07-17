@@ -2,13 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Image from "../components/SlideShowImages/ImageOne"
 import SEO from "../components/seo"
 import "../components/index.css"
 import { Menu } from "../components/Menu"
 import { ThemeProvider, CSSReset } from "@chakra-ui/core"
 import { customTheme } from "../components/theme"
 import { About } from "../components/About"
+import { SlideShow } from "../components/SlideShow"
 
 const IndexPage = () => (
   <ThemeProvider theme={customTheme}>
@@ -16,7 +17,8 @@ const IndexPage = () => (
     <Layout>
       <SEO title="MAD BUN" />
       <div style={{ overflow: 'hidden'}}>
-        <Image />
+        <SlideShow />
+        {/* <Image /> */}
       </div>
       <About />
       <Menu />
